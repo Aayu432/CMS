@@ -1,9 +1,9 @@
 import React from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import {doctorsData } from '../utils/dummyData';
-import  Button from '../components/ui/Button';
-import Card from '../components/ui/Card';
-import LoadingSpinner from '../components/ui/LoadingSpinner';
+import {doctorsData } from '../utils/dummyData.js';
+import  Button from "../ui/Button.jsx";
+import Card from '../ui/Card.jsx';
+// import LoadingSpinner from '../ui/LoadingSpinner';
 
 const DoctorDetail = () => {
   const { id } = useParams();

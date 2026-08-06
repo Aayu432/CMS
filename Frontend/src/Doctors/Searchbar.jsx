@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Input from '../ui/Input';
+import Input from '../ui/Input.jsx';
 
 const SearchBar = ({ searchQuery, setSearchQuery, onSearch }) => {
   const [localQuery, setLocalQuery] = useState(searchQuery);

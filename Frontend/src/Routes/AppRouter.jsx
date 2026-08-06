@@ -6,21 +6,21 @@ import {
 } from 'react-router-dom';
 
 // Layouts
-import Layout from '../components/common/Layout';
-import AuthLayout from '../components/common/AuthLayout';
+import Layout from '../Common/Layout.jsx';
+import AuthLayout from '../Common/AuthLayout.jsx';
 
 // Pages
-import Home from '../pages/Home';
-import Doctor from '../pages/Doctor';
-import DoctorDetail from '../pages/DoctorDetail';
-import About from '../pages/About';
-import Contact from '../pages/Contact';
-import NotFound from '../pages/Error';
-import Services from '../pages/Services';
-import ServiceDetail from '../pages/ServiceDetail';
+import Home from '../pages/Home.jsx';
+import Doctor from '../pages/Doctor.jsx';
+import DoctorDetail from '../Pages/DoctorDetails.jsx';
+import About from '../pages/About.jsx';
+import Contact from '../pages/Contact.jsx';
+import NotFound from '../pages/Error.jsx';
+import Services from '../pages/Services.jsx';
+import ServiceDetail from '../pages/ServiceDetails.jsx';
 
 // Components
-import  LoadingSpinner  from '../components/ui/LoadingSpinner';
+import  LoadingSpinner  from '../ui/LoadingSpinner.jsx';
 
 // Lazy loading wrapper
 const RouteWrapper = ({ children }) => (

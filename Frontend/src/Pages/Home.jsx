@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import HeroSection from '../components/doctors/HeroSection.jsx';
-import Card from '../components/ui/Card';
-import Button from '../components/ui/Button';
+import HeroSection from '../HomePageComponent/Herosection.jsx';
+import Card from '../ui/Card.jsx';
+import Button from '../ui/Button.jsx';
 
 const Home = () => {
   const features = [

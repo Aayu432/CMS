@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import HeroSection from '../components/doctors/HeroSection';
-import SearchBar from '../components/doctors/SearchBar';
-import FilterSection from '../components/doctors/FilterSection';
-import DoctorsList from '../components/doctors/DoctorList';
-import Card from '../components/ui/Card';
+
+import SearchBar from '../Doctors/Searchbar.jsx';
+import FilterSection from '../Doctors/Filtersection.jsx';
+import DoctorsList from '../Doctors/DoctorList.jsx';
+import Card from '../ui/Card.jsx';
 
 const Doctor = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -16,7 +16,6 @@ const Doctor = () => {
 
   return (
     <div className="min-h-screen bg-transparent">
-      <HeroSection />
 
       <div className="container-custom relative z-10 -mt-10 px-4 pb-16 sm:px-6 lg:px-8">
         <Card className="mb-8 border-0 bg-white/90 p-6 shadow-[0_20px_45px_rgba(15,23,42,0.08)] backdrop-blur-sm">

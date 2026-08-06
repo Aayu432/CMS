@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Card from '../components/ui/Card';
-import Button from '../components/ui/Button';
-import Input from '../components/ui/Input';
+import Card from '../ui/Card.jsx';
+import Button from '../ui/Button.jsx';
+import Input from '../ui/Input.jsx';
 
 const Contact = () => {
   const [formData, setFormData] = useState({

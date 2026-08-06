@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SPECIALTIES, AVAILABILITY_OPTIONS, RATING_OPTIONS, EXPERIENCE_RANGES } from '../../utils/constants';
+import { SPECIALTIES, AVAILABILITY_OPTIONS, RATING_OPTIONS, EXPERIENCE_RANGES } from '../Utils/Constant';
 
 const FilterSection = ({ filters, setFilters }) => {
   const [isExpanded, setIsExpanded] = useState(true);

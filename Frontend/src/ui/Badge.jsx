@@ -212,4 +212,4 @@ const Badge = ({
   );
 };
 
-export default Bad
+export default Badge;

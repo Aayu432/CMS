@@ -1,7 +1,7 @@
 import React from 'react';
-import { ThemeProvider } from './contexts/ThemeContext';
-import { DoctorProvider } from './contexts/DoctorContext';
-import AppRouter from './Routes/AppRouter'
+import { ThemeProvider } from './Context/ThemeContext.jsx';
+import { DoctorProvider } from './Context/DoctorContext.jsx';
+import AppRouter from './Routes/AppRouter.jsx'
 
 function App() {
   return (

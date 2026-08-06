@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import DoctorCard from './DoctorCard';
-import LoadingSpinner from '../ui/LoadingSpinner';
-import { doctorsData } from '../../utils/dummyData';
+import LoadingSpinner from '../ui/LoadingSpinner.jsx';
+import { doctorsData } from '../Utils/dummyData.js';
 
 const DoctorsList = ({ searchQuery, filters }) => {
   const [loading, setLoading] = useState(false);
